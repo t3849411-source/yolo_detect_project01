@@ -19,6 +19,26 @@
 - 좌표 표시: `object-fit: cover/contain`의 scale과 offset을 반영하여 Canvas 좌표 변환
 - 경고: 화염은 빨간색, 연기는 주황색; 최근 탐지를 1.8초 유지하고 진동/소리는 사용자 opt-in 및 5초 cooldown 적용
 
+## 실제 모바일 탐지 결과
+
+Render에 배포한 CPU 서버와 스마트폰 브라우저를 WebSocket으로 연결해 실시간 카메라 모드를 검증했습니다. 세 화면 모두 연결 상태와 원본 영상 크기를 유지하면서 화염 바운딩 박스, 클래스명, confidence, 탐지 개수 및 지연 시간을 정상 표시했습니다.
+
+| 버스 화재 영상 | 건물 화재 영상 1 | 건물 화재 영상 2 |
+|:---:|:---:|:---:|
+| <img src="docs/images/results/realtime-fire-bus.jpg" alt="버스 화재 실시간 탐지" width="260"> | <img src="docs/images/results/realtime-fire-building-01.jpg" alt="건물 화재 실시간 탐지 첫 번째 결과" width="260"> | <img src="docs/images/results/realtime-fire-building-02.jpg" alt="건물 화재 실시간 탐지 두 번째 결과" width="260"> |
+| fire 37% | fire 42% | fire 48% |
+
+| 측정 항목 | 버스 화재 | 건물 화재 1 | 건물 화재 2 |
+|---|---:|---:|---:|
+| fire 탐지 수 | 1 | 1 | 1 |
+| smoke 탐지 수 | 0 | 0 | 0 |
+| 모델 confidence | 0.37 | 0.42 | 0.48 |
+| 서버 추론 시간 | 1,082 ms | 1,002 ms | 839 ms |
+| 전체 왕복 시간 | 1,417 ms | 1,383 ms | 1,235 ms |
+| 화면 표시 실제 FPS | 0.5 | 0.1 | 0.8 |
+
+Render의 CPU 환경에서는 로컬 CUDA보다 추론이 느리지만, 이전 프레임의 응답이 도착하기 전에는 다음 프레임을 보내지 않는 backpressure가 정상 작동하여 프레임 queue가 누적되지 않았습니다. 따라서 설정한 전송 FPS는 최대 목표값이고 실제 FPS는 서버 추론 및 네트워크 왕복 시간에 따라 낮아질 수 있습니다. 위 결과는 기능 검증 당시의 개별 화면이며 전체 모델 성능은 아래 독립 test 지표를 기준으로 판단해야 합니다.
+
 ## 데이터셋과 전처리 결과
 
 결합한 원본은 다음 두 Kaggle 데이터셋입니다.
@@ -74,23 +94,23 @@
 | fire | 0.485 | 0.576 | 0.573 | 0.289 |
 | smoke | 0.486 | 0.708 | 0.537 | 0.267 |
 
-평가 원본은 [evaluation_report.md](outputs/evaluation/evaluation_report.md), [metrics.json](outputs/evaluation/metrics.json), [validation_vs_test.csv](outputs/evaluation/validation_vs_test.csv)에 있습니다. FP/FN 예시는 confidence 0.25, 같은 클래스, IoU 0.50 기준으로 실제 정답과 예측을 매칭해 선정했습니다.
+GitHub에서 확인할 수 있는 평가 요약은 [evaluation_report.md](docs/evaluation/evaluation_report.md), [metrics.json](docs/evaluation/metrics.json), [validation_vs_test.csv](docs/evaluation/validation_vs_test.csv)에 있습니다. FP/FN 예시는 confidence 0.25, 같은 클래스, IoU 0.50 기준으로 실제 정답과 예측을 매칭해 선정했습니다.
 
 ### 평가 그래프
 
 | PR Curve | F1 Curve |
 |---|---|
-| ![PR Curve](outputs/evaluation/metrics/BoxPR_curve.png) | ![F1 Curve](outputs/evaluation/metrics/BoxF1_curve.png) |
+| ![PR Curve](docs/evaluation/BoxPR_curve.png) | ![F1 Curve](docs/evaluation/BoxF1_curve.png) |
 
 | Precision Curve | Recall Curve |
 |---|---|
-| ![Precision Curve](outputs/evaluation/metrics/BoxP_curve.png) | ![Recall Curve](outputs/evaluation/metrics/BoxR_curve.png) |
+| ![Precision Curve](docs/evaluation/BoxP_curve.png) | ![Recall Curve](docs/evaluation/BoxR_curve.png) |
 
 | Confusion Matrix | Normalized Confusion Matrix |
 |---|---|
-| ![Confusion Matrix](outputs/evaluation/metrics/confusion_matrix.png) | ![Normalized Confusion Matrix](outputs/evaluation/metrics/confusion_matrix_normalized.png) |
+| ![Confusion Matrix](docs/evaluation/confusion_matrix.png) | ![Normalized Confusion Matrix](docs/evaluation/confusion_matrix_normalized.png) |
 
-추가 예시는 `outputs/evaluation/samples`, `false_positives`, `false_negatives`, `undetected_negatives`에 있습니다.
+전체 로컬 평가 산출물과 추가 예시는 `outputs/evaluation/samples`, `false_positives`, `false_negatives`, `undetected_negatives`에 있습니다. 대용량 전체 결과는 Git에 포함하지 않고 README에 사용하는 요약 자료만 `docs/evaluation`에 보관합니다.
 
 ## 설치
 
