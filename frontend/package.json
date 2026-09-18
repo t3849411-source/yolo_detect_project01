@@ -1,0 +1,21 @@
+{
+  "name": "fire-smoke-mobile-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "vite": "latest",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@testing-library/vue": "latest",
+    "jsdom": "latest",
+    "vitest": "latest"
+  }
+}

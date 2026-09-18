@@ -1,0 +1,2875 @@
+{
+  "input_images": 17661,
+  "prepared_images": 16946,
+  "exact_duplicates_removed": 715,
+  "rejected_invalid_boxes": 1,
+  "split_counts": {
+    "train": 11847,
+    "val": 3395,
+    "test": 1704
+  },
+  "class_map": "0:drop,1:fire,2:smoke",
+  "cross_split_group_leaks": 0,
+  "duplicates": [
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/0105_jpg.rf.e17e40697b4dc6cfe13d2f23f927441c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/0105_jpg.rf.e17e40697b4dc6cfe13d2f23f927441c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/0150_jpg.rf.462dcc2ed0f3004655084304d8d3e85d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/0150_jpg.rf.462dcc2ed0f3004655084304d8d3e85d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/102-Copy_jpg.rf.1db55d7c1e19ac14b144e3390fdb0e5b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/102-Copy_jpg.rf.1db55d7c1e19ac14b144e3390fdb0e5b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/1133_jpg.rf.b3d4a832c8d769bc8229232da13fe8e9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/1133_jpg.rf.b3d4a832c8d769bc8229232da13fe8e9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/35_jpg.rf.3221c8f868ffdf71fede62108dd1a2c8.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/35_jpg.rf.3221c8f868ffdf71fede62108dd1a2c8.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/39_jpg.rf.e89b0397be23ad3edfeed441326d5f2f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/39_jpg.rf.e89b0397be23ad3edfeed441326d5f2f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/45_jpg.rf.7b46ddaa4c54ec33b58fc8bdab20b398.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/45_jpg.rf.7b46ddaa4c54ec33b58fc8bdab20b398.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/46_jpg.rf.07b717d913d1e95415e31df0a5f0461f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/46_jpg.rf.07b717d913d1e95415e31df0a5f0461f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire052_jpg.rf.1209d812dbda320a55023d237fe08853.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire052_jpg.rf.1209d812dbda320a55023d237fe08853.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1048_jpg.rf.c3ac99496e292b9a442f6b18d5429b55.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1048_jpg.rf.c3ac99496e292b9a442f6b18d5429b55.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1183_jpg.rf.a03ed05a0b193893fa402aad34343711.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1183_jpg.rf.a03ed05a0b193893fa402aad34343711.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1324_jpg.rf.2cc91aee0b6d01ae3cb21e8ec3e545fe.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1324_jpg.rf.2cc91aee0b6d01ae3cb21e8ec3e545fe.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1355_jpg.rf.e4f4e291e4d268865f1a7b996fba6e31.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1355_jpg.rf.e4f4e291e4d268865f1a7b996fba6e31.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1384_jpg.rf.b5597c6d4dc296efb51942a8b49f64ee.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1384_jpg.rf.b5597c6d4dc296efb51942a8b49f64ee.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1419_jpg.rf.6d8263727861f9fe1805f5c2e2b5a209.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1419_jpg.rf.6d8263727861f9fe1805f5c2e2b5a209.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1420_jpg.rf.b04d3473ba086d397374a42ce2a24323.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1420_jpg.rf.b04d3473ba086d397374a42ce2a24323.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1631_jpg.rf.b4cd18f7a54a4b87bf0a4eb013c44407.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1631_jpg.rf.b4cd18f7a54a4b87bf0a4eb013c44407.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1668_jpg.rf.cdb94900b2fb20ee8841712b851136ac.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1668_jpg.rf.cdb94900b2fb20ee8841712b851136ac.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire192_jpg.rf.f5fa5a9b75c8937a1c445627f5b9e106.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire192_jpg.rf.f5fa5a9b75c8937a1c445627f5b9e106.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire396_jpg.rf.f47d28d6504a498d81f705e0b6f659b0.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire396_jpg.rf.f47d28d6504a498d81f705e0b6f659b0.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBSmoke1882_jpg.rf.8618fe76ef25b6ad604d2e9309986f24.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBSmoke1882_jpg.rf.8618fe76ef25b6ad604d2e9309986f24.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBSmoke2854_jpg.rf.74b2e3400d8806a7da96affb0d7917c4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBSmoke2854_jpg.rf.74b2e3400d8806a7da96affb0d7917c4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBSmoke333_jpg.rf.812eb277bd5edb7c24fe29b4c1ebb4fc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBSmoke333_jpg.rf.812eb277bd5edb7c24fe29b4c1ebb4fc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBFire1441_jpg.rf.0b037259df0c3caa7b5c1163c4e48a11.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBFire1441_jpg.rf.0b037259df0c3caa7b5c1163c4e48a11.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke032_jpg.rf.f5dd6421c2c4dfd69d548a2d10ea8009.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke032_jpg.rf.f5dd6421c2c4dfd69d548a2d10ea8009.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke2540_jpg.rf.33b4a8c14c1009b43460aabaf4a8fd04.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke2540_jpg.rf.33b4a8c14c1009b43460aabaf4a8fd04.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke2870_jpg.rf.433df4d8feb3e817dcd0e17facb558e6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke2870_jpg.rf.433df4d8feb3e817dcd0e17facb558e6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke3087_jpg.rf.c53ce690c9f3c0237ea764a70b71d25f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke3087_jpg.rf.c53ce690c9f3c0237ea764a70b71d25f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke3300_jpg.rf.629301c84087e676d0b79cfc99e8cd5c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke3300_jpg.rf.629301c84087e676d0b79cfc99e8cd5c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke3326_jpg.rf.0a3aac8ceb70f60c25f32446d4803755.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke3326_jpg.rf.0a3aac8ceb70f60c25f32446d4803755.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke371_jpg.rf.7f7082babd9cf737457bd0438e6ba15c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke371_jpg.rf.7f7082babd9cf737457bd0438e6ba15c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0801MF05266.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0801MF05266.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0802MF03254.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0802MF03254.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0804MF05098.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0804MF05098.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0805MF03062.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0805MF03062.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0805MF03962.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0805MF03962.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0805MF05522.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0805MF05522.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0806MF03926.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0806MF03926.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0806MF06806.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0806MF06806.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0809MF02218.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0809MF02218.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0811MF02774.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0811MF02774.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0811MF04658.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0811MF04658.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0811MF04946.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0811MF04946.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0812MF02654.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0812MF02654.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0813MF03058.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0813MF03058.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0814MF02626.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0814MF02626.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0817MF02122.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0817MF02122.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0818MF02854.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0818MF02854.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0819MF03338.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0819MF03338.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0819MF06182.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0819MF06182.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0820MF03242.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0820MF03242.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0821MF02782.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0821MF02782.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0822MF02806.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0822MF02806.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0822MF02942.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0822MF02942.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0824MF02434.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0824MF02434.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0824MF03826.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0824MF03826.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0825MF01346.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0825MF01346.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0825MF03386.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0825MF03386.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0826MF01894.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0826MF01894.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0826MF03154.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0826MF03154.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0827MF04058.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0827MF04058.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0831MF05758.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0831MF05758.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0834MF02882.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0834MF02882.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0835MF02878.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0835MF02878.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0836MF02402.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0836MF02402.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0837MF02446.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0837MF02446.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0837MF05654.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0837MF05654.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0840MF04114.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0840MF04114.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0842MF03658.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0842MF03658.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0845MF03158.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0845MF03158.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0845MF03422.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0845MF03422.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0845MF05174.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0845MF05174.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0846MF04646.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0846MF04646.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0846MF05198.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0846MF05198.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0848MF00274.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0848MF00274.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0848MF04054.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0848MF04054.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0849MF04406.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0849MF04406.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0850MF04058.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0850MF04058.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0851MF00782.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0851MF00782.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0851MF01762.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0851MF01762.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0852MF04258.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0852MF04258.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0852MF04958.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0852MF04958.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0853MF03334.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0853MF03334.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0853MF04882.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0853MF04882.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0853MF05014.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0853MF05014.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0854MF02834.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0854MF02834.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0854MF05354.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0854MF05354.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0855MF00086.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0855MF00086.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0855MF00506.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0855MF00506.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0857MF00886.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0857MF00886.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0858MF01034.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0858MF01034.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0858MF01874.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0858MF01874.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0858MF02854.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0858MF02854.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0859MF02746.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0859MF02746.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0859MF03026.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0859MF03026.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0860MF01202.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0860MF01202.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0860MF01622.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0860MF01622.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0861MF00554.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0861MF00554.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0862MF01082.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0862MF01082.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0863MF03362.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0863MF03362.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0865MF02386.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0865MF02386.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0867MF02318.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0867MF02318.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0868MF00974.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0868MF00974.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0868MF02326.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0868MF02326.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0868MF04186.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0868MF04186.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0869MF00454.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0869MF00454.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0869MF00734.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0869MF00734.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0869MF03274.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0869MF03274.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0870MF01286.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0870MF01286.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0871MF03394.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0871MF03394.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0872MF04594.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0872MF04594.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0872MF04774.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0872MF04774.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0874MF00562.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0874MF00562.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0874MF03022.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0874MF03022.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0874MF04282.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0874MF04282.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0875MF04118.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0875MF04118.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0875MF04178.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0875MF04178.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0876MF03002.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0876MF03002.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0876MF03482.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0876MF03482.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0877MF03614.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0877MF03614.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0877MF03974.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0877MF03974.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0878MF03578.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF03578.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0878MF03638.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF03638.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0881MF00662.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0881MF00662.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0886MF00542.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0886MF00542.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0889MF02014.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0889MF02014.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0890MF00254.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0890MF00254.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0892MF01966.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0892MF01966.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0895MF01922.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0895MF01922.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0912MF01042.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0912MF01042.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0916MF01106.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0916MF01106.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0923MF00206.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0923MF00206.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0924MF01322.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0924MF01322.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0924MF02222.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0924MF02222.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0924MF02702.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0924MF02702.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0925MF01702.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0925MF01702.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0925MF01762.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0925MF01762.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0925MF02602.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0925MF02602.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1202MF03838.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1202MF03838.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1203MF00226.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1203MF00226.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1203MF03182.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1203MF03182.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1204MF00442.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1204MF00442.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1204MF00986.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1204MF00986.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1204MF01282.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1204MF01282.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1207MF02098.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1207MF02098.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1207MF02518.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1207MF02518.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1213MF01618.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1213MF01618.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1213MF02398.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1213MF02398.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1214MF01046.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1214MF01046.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1214MF01106.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1214MF01106.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1214MF01766.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1214MF01766.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1214MF01886.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1214MF01886.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1214MF02846.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1214MF02846.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1216MF01366.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1216MF01366.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1216MF02494.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1216MF02494.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1217MF00838.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1217MF00838.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1217MF02402.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1217MF02402.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1217MF02518.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1217MF02518.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1448MF01862.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1448MF01862.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1451MF00302.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1451MF00302.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1451MF00962.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1451MF00962.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1452MF00902.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1452MF00902.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1452MF01142.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1452MF01142.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1453MF00418.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1453MF00418.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1453MF00778.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1453MF00778.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1454MF00466.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1454MF00466.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1454MF00526.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1454MF00526.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1454MF01426.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1454MF01426.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1457MF01298.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1457MF01298.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1458MF01622.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1458MF01622.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1460MF00442.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1460MF00442.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1462MF00754.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1462MF00754.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1462MF00962.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1462MF00962.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1462MF01522.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1462MF01522.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire060_jpg.rf.40287229295ae8406bbec37c469458e6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire060_jpg.rf.40287229295ae8406bbec37c469458e6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire1042_jpg.rf.5e18d5af3ef77544a2c67083c1224b72.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire1042_jpg.rf.5e18d5af3ef77544a2c67083c1224b72.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire1121_jpg.rf.961356d7d9e6697b6566f86ca06850df.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire1121_jpg.rf.961356d7d9e6697b6566f86ca06850df.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire1210_jpg.rf.3867b7f968381437ee3f17bcd7b2a088.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire1210_jpg.rf.3867b7f968381437ee3f17bcd7b2a088.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire1693_jpg.rf.dfc30bf4c429ce3f4808acbe7fb68a56.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire1693_jpg.rf.dfc30bf4c429ce3f4808acbe7fb68a56.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire1746_jpg.rf.f4a65f22f4258ade9890f632617c8111.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire1746_jpg.rf.f4a65f22f4258ade9890f632617c8111.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire180_jpg.rf.80abcdc050d2ed3be2597eda7ca9ea45.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire180_jpg.rf.80abcdc050d2ed3be2597eda7ca9ea45.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire2039_jpg.rf.ece323090bce39b9163fca3e8ac41f02.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire2039_jpg.rf.ece323090bce39b9163fca3e8ac41f02.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire211_jpg.rf.e376c5e702dff81ead080920a1b5db76.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire211_jpg.rf.e376c5e702dff81ead080920a1b5db76.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire299_jpg.rf.d8b7e5ee288170b0f0ac990bcf8837f4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire299_jpg.rf.d8b7e5ee288170b0f0ac990bcf8837f4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire574_jpg.rf.247d4b395518e944595e8a1ebe463a27.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire574_jpg.rf.247d4b395518e944595e8a1ebe463a27.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire752_jpg.rf.33819e2f51d7ff73513e3878146e70bc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire752_jpg.rf.33819e2f51d7ff73513e3878146e70bc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBSmoke1003_jpg.rf.4118016a6a2a9698cb667b5f73a4ff39.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke1003_jpg.rf.4118016a6a2a9698cb667b5f73a4ff39.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBSmoke1221_jpg.rf.b9961ff42e4ee208ae1cffeae078c50d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke1221_jpg.rf.b9961ff42e4ee208ae1cffeae078c50d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBSmoke2288_jpg.rf.010886d9afd672b5078cb0b3dbf92942.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke2288_jpg.rf.010886d9afd672b5078cb0b3dbf92942.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/ap_20254407741266_custom-64126f3de0787b26ef528566ab270d342c7b9caa_jpg.rf.faffe39d906da199304a255cbb37bdd5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/ap_20254407741266_custom-64126f3de0787b26ef528566ab270d342c7b9caa_jpg.rf.faffe39d906da199304a255cbb37bdd5.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-1089-_jpg.rf.f9cd39a182802c84b6287b4b8f24ef7c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-1089-_jpg.rf.f9cd39a182802c84b6287b4b8f24ef7c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-1165-_jpg.rf.7b8a084ed449c25cb9a1aca772ed244b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-1165-_jpg.rf.7b8a084ed449c25cb9a1aca772ed244b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-1204-_jpg.rf.ad1e6d1aad2bb6279e85fdc7a3f55f53.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-1204-_jpg.rf.ad1e6d1aad2bb6279e85fdc7a3f55f53.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-1364-_jpg.rf.34726a30f9cef0808ab884e4c38e09f7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-1364-_jpg.rf.34726a30f9cef0808ab884e4c38e09f7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-21-_jpg.rf.3be39253fd4b755405fc6263ebf371e0.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-21-_jpg.rf.3be39253fd4b755405fc6263ebf371e0.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-28-_jpg.rf.b658b4d2fe5205ffa5ed24c6060e81eb.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-28-_jpg.rf.b658b4d2fe5205ffa5ed24c6060e81eb.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-30-_jpg.rf.94f7e500b7a13badf15f5dcf8d45bbb7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-30-_jpg.rf.94f7e500b7a13badf15f5dcf8d45bbb7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-33-_jpg.rf.ea0e90522c071dd752e2369a17a67f62.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-33-_jpg.rf.ea0e90522c071dd752e2369a17a67f62.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-6-_jpg.rf.f7683d56b2980c9a3bea06e94ee58a3c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-6-_jpg.rf.f7683d56b2980c9a3bea06e94ee58a3c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-631-_jpg.rf.26d9763624d6b22d1db0ba841c00bcbe.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-631-_jpg.rf.26d9763624d6b22d1db0ba841c00bcbe.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-685-_jpg.rf.1162c206da1d5c4a1fb117f120813f83.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-685-_jpg.rf.1162c206da1d5c4a1fb117f120813f83.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-706-_jpg.rf.f4582096896b4dfb26a9eb852163a18a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-706-_jpg.rf.f4582096896b4dfb26a9eb852163a18a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-740-_jpg.rf.79f87274ae21b168824c20186cba0217.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-740-_jpg.rf.79f87274ae21b168824c20186cba0217.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-913-_jpg.rf.f3975961015bfac2fe4b5ad1878676af.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-913-_jpg.rf.f3975961015bfac2fe4b5ad1878676af.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-957-_jpg.rf.1388d47f7fe3be9d1b1e8b71f95abd9a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-957-_jpg.rf.1388d47f7fe3be9d1b1e8b71f95abd9a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-17_jpg.rf.6340ae2f2198cef61270c4ff6158eedc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-17_jpg.rf.6340ae2f2198cef61270c4ff6158eedc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-19_jpg.rf.ef3bce2966dab99e16285f105bae6aaf.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-19_jpg.rf.ef3bce2966dab99e16285f105bae6aaf.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-209_jpg.rf.0903ca5a521b0bf3989957e6ea3767b6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-209_jpg.rf.0903ca5a521b0bf3989957e6ea3767b6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-212_jpg.rf.b9741e6083589e9db962b8aefa015e1b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-212_jpg.rf.b9741e6083589e9db962b8aefa015e1b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-34_jpg.rf.d87cfa7124813576f15c7784e6415345.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-34_jpg.rf.d87cfa7124813576f15c7784e6415345.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-79_jpg.rf.cd5f8d9e525e8b09f0fbfc64c41daec2.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-79_jpg.rf.cd5f8d9e525e8b09f0fbfc64c41daec2.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-97_jpg.rf.9026707904fe6f6a1efa3fa43ac17565.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-97_jpg.rf.9026707904fe6f6a1efa3fa43ac17565.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-128_jpg.rf.6ff60c17d49daadf71ec7bd31090299b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-128_jpg.rf.6ff60c17d49daadf71ec7bd31090299b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-19_jpg.rf.72fbf333aa1965ce0b353a51bcd7deaf.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-19_jpg.rf.72fbf333aa1965ce0b353a51bcd7deaf.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-26_jpg.rf.d8ce8754baeb9dfe4d51442586729110.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-26_jpg.rf.d8ce8754baeb9dfe4d51442586729110.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-32_jpg.rf.f42004025634af2373627105f0e0e98b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-32_jpg.rf.f42004025634af2373627105f0e0e98b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-46_jpg.rf.84b75d07ed61b94c779cb1d8333dfeaf.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-46_jpg.rf.84b75d07ed61b94c779cb1d8333dfeaf.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-47_jpg.rf.78a5abe558433af86fb0c439cd55133f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-47_jpg.rf.78a5abe558433af86fb0c439cd55133f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-54_jpg.rf.ce5da2c76997b8d024b1b6af90cb9b5e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-54_jpg.rf.ce5da2c76997b8d024b1b6af90cb9b5e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-75_jpg.rf.b587583ef2e8bc5904930426d98b0550.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-75_jpg.rf.b587583ef2e8bc5904930426d98b0550.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-78_jpg.rf.32256204b8fcefe4c6870cf01704533e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-78_jpg.rf.32256204b8fcefe4c6870cf01704533e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-92_jpg.rf.d885ac2563c96287b26c266a486d45b1.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-92_jpg.rf.d885ac2563c96287b26c266a486d45b1.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-97_jpg.rf.177a99964576af4a79969d0cbd4ca82d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-97_jpg.rf.177a99964576af4a79969d0cbd4ca82d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-103_jpg.rf.645b605d3fcf8c1c4eac57c46e17e9c7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-103_jpg.rf.645b605d3fcf8c1c4eac57c46e17e9c7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-131_jpg.rf.fc00d19e4368ff7b5e246aaa9e758dde.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-131_jpg.rf.fc00d19e4368ff7b5e246aaa9e758dde.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-165_jpg.rf.e2a5e7826de564ad48adaf8d515b7afc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-165_jpg.rf.e2a5e7826de564ad48adaf8d515b7afc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-207_jpg.rf.162d37662f1525498c1a510187be2b6f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-207_jpg.rf.162d37662f1525498c1a510187be2b6f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-209_jpg.rf.e28428a4f0cf7887bf39e2a1985b6e02.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-209_jpg.rf.e28428a4f0cf7887bf39e2a1985b6e02.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-38_jpg.rf.15c8a8c9ec0b0ab000b00f7939623c06.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-38_jpg.rf.15c8a8c9ec0b0ab000b00f7939623c06.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-3_jpg.rf.74153ce20b795152e0bbff5d0c9c470c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-3_jpg.rf.74153ce20b795152e0bbff5d0c9c470c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-92_jpg.rf.fbff60ee9b4d3850f025b806baa9eb41.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-92_jpg.rf.fbff60ee9b4d3850f025b806baa9eb41.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-214_jpg.rf.ed7ecf50254e35b792b0dbb8e3b5360e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-214_jpg.rf.ed7ecf50254e35b792b0dbb8e3b5360e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-315_jpg.rf.0de5048aead7bc2c5646edfb61f46021.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-315_jpg.rf.0de5048aead7bc2c5646edfb61f46021.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-318_jpg.rf.9fd552afa291d394e5935cfa25439808.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-318_jpg.rf.9fd552afa291d394e5935cfa25439808.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-371_jpg.rf.eed7fc816d5525c49fa601a4789b3298.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-371_jpg.rf.eed7fc816d5525c49fa601a4789b3298.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-477_jpg.rf.9d4170a06288a0438cbb7a7c0ba9cfe9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-477_jpg.rf.9d4170a06288a0438cbb7a7c0ba9cfe9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-514_jpg.rf.a72e55f552b3e3860c11e236fb6652ec.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-514_jpg.rf.a72e55f552b3e3860c11e236fb6652ec.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-515_jpg.rf.b9e162a7ccfcf8d11380b948f1afaaaa.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-515_jpg.rf.b9e162a7ccfcf8d11380b948f1afaaaa.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-518_jpg.rf.ab3c7a8e17b1d8eb5742d04478caa5f7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-518_jpg.rf.ab3c7a8e17b1d8eb5742d04478caa5f7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-542_jpg.rf.be47e73b2bd86234c5288bb4f5fe2e2b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-542_jpg.rf.be47e73b2bd86234c5288bb4f5fe2e2b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-547_jpg.rf.aeba491d14a431f787f5b6360b6ea4fc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-547_jpg.rf.aeba491d14a431f787f5b6360b6ea4fc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-569_jpg.rf.e9ed110c45f8b00754c04376cac86af7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-569_jpg.rf.e9ed110c45f8b00754c04376cac86af7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-580_jpg.rf.6a7ac275aa1ae66cee96bc6b31174405.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-580_jpg.rf.6a7ac275aa1ae66cee96bc6b31174405.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-590_jpg.rf.970e600e7964f3f6960d666d7bca1475.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-590_jpg.rf.970e600e7964f3f6960d666d7bca1475.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-600_jpg.rf.26c686b89e6de79730fb8f35a51fa67a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-600_jpg.rf.26c686b89e6de79730fb8f35a51fa67a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-610_jpg.rf.5f2bb92e7e24e6bb17b9ce052627da23.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-610_jpg.rf.5f2bb92e7e24e6bb17b9ce052627da23.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-623_jpg.rf.409816f187fb249c9be539024c982a2c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-623_jpg.rf.409816f187fb249c9be539024c982a2c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-636_jpg.rf.d71e11e1772b5e544eef76f6f874dc6d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-636_jpg.rf.d71e11e1772b5e544eef76f6f874dc6d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-655_jpg.rf.e82361f138fef2fc77f22255f5fcd7c6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-655_jpg.rf.e82361f138fef2fc77f22255f5fcd7c6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-696_jpg.rf.2355bdfd268497dc62c0961f1b38fdeb.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-696_jpg.rf.2355bdfd268497dc62c0961f1b38fdeb.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-705_jpg.rf.8a4c3aff009b39b131cd8e426d2f57da.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-705_jpg.rf.8a4c3aff009b39b131cd8e426d2f57da.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire4_mp4-190_jpg.rf.8f33d8858d398df2a92a1305764695f6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire4_mp4-190_jpg.rf.8f33d8858d398df2a92a1305764695f6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire4_mp4-219_jpg.rf.f95d098edd0073e6f08692bfb6a5bcad.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire4_mp4-219_jpg.rf.f95d098edd0073e6f08692bfb6a5bcad.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire4_mp4-80_jpg.rf.e4c93baecbad3f29b65389294c8e3742.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire4_mp4-80_jpg.rf.e4c93baecbad3f29b65389294c8e3742.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-1144_jpg.rf.a02990c367ba49c11108db3ea5d83233.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1144_jpg.rf.a02990c367ba49c11108db3ea5d83233.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-1322_jpg.rf.437ac3e863f8dec2dda17819c4282e45.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1322_jpg.rf.437ac3e863f8dec2dda17819c4282e45.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-1535_jpg.rf.67781eb3072fabc5c0f46965579bf1ce.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1535_jpg.rf.67781eb3072fabc5c0f46965579bf1ce.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-1547_jpg.rf.56269598627015806fcef1006f1ee1bd.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1547_jpg.rf.56269598627015806fcef1006f1ee1bd.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-1657_jpg.rf.e350768a066a65421fcfee04bb38838d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1657_jpg.rf.e350768a066a65421fcfee04bb38838d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-235_jpg.rf.50471b568224cf35675fa793898adddc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-235_jpg.rf.50471b568224cf35675fa793898adddc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-390_jpg.rf.fcf7d31e4d15abd6d1d57781cc8f60c7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-390_jpg.rf.fcf7d31e4d15abd6d1d57781cc8f60c7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-428_jpg.rf.f28313ad91f17890d6946c82417480b5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-428_jpg.rf.f28313ad91f17890d6946c82417480b5.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-469_jpg.rf.dc50791abd58cdb6b0368c4bbedecbee.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-469_jpg.rf.dc50791abd58cdb6b0368c4bbedecbee.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-4_jpg.rf.5ae5aedab786998ec743f849efaff175.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-4_jpg.rf.5ae5aedab786998ec743f849efaff175.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-512_jpg.rf.57e1a6216452348f0b0159161230a536.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-512_jpg.rf.57e1a6216452348f0b0159161230a536.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-514_jpg.rf.dc6c24ffd518a468bf0209a5058ad08a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-514_jpg.rf.dc6c24ffd518a468bf0209a5058ad08a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-7_jpg.rf.4007161ae7a7aaaf8094024c731864b9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-7_jpg.rf.4007161ae7a7aaaf8094024c731864b9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-805_jpg.rf.4ccf9debcd3fcb49b20a8a8f659beccc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-805_jpg.rf.4ccf9debcd3fcb49b20a8a8f659beccc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-850_jpg.rf.6f8f58aa19cf1a9e68eba3250802cf0b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-850_jpg.rf.6f8f58aa19cf1a9e68eba3250802cf0b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-949_jpg.rf.3019f9255f6ce92936421235d6efe064.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-949_jpg.rf.3019f9255f6ce92936421235d6efe064.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-103_jpg.rf.ed8841432b9dd95803b222195bc2434e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-103_jpg.rf.ed8841432b9dd95803b222195bc2434e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-110_jpg.rf.1a4b81cf376b2c01a6c0681fe1d3ae6b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-110_jpg.rf.1a4b81cf376b2c01a6c0681fe1d3ae6b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-110_jpg.rf.2e49e891b2f845c85668a2fb22430828.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-110_jpg.rf.2e49e891b2f845c85668a2fb22430828.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-111_jpg.rf.405fe3972ce3aec2a033121b850bd5d2.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-111_jpg.rf.405fe3972ce3aec2a033121b850bd5d2.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-116_jpg.rf.616539c20c3174a201b1a8199aa5800e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-116_jpg.rf.616539c20c3174a201b1a8199aa5800e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-117_jpg.rf.db18a36f88f98b5ef975111f3ec1cbf3.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-117_jpg.rf.db18a36f88f98b5ef975111f3ec1cbf3.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-128_jpg.rf.529b9db5f2b5e6bd70eb41d2eb30a4e4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-128_jpg.rf.529b9db5f2b5e6bd70eb41d2eb30a4e4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-156_jpg.rf.5467c500fae844f79d7c7e4b691f6d5a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-156_jpg.rf.5467c500fae844f79d7c7e4b691f6d5a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-161_jpg.rf.73ef52747d81bac6ca3778e10c298c42.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-161_jpg.rf.73ef52747d81bac6ca3778e10c298c42.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-168_jpg.rf.13606f883d240bd7d900936edf58bcd3.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-168_jpg.rf.13606f883d240bd7d900936edf58bcd3.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-16_jpg.rf.242a2330626dca57a8fdcbb86e808333.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-16_jpg.rf.242a2330626dca57a8fdcbb86e808333.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-183_jpg.rf.5f748f43151f7447483d77240a8a117f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-183_jpg.rf.5f748f43151f7447483d77240a8a117f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-191_jpg.rf.3bd1a21386b626989d49e0665f35507b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-191_jpg.rf.3bd1a21386b626989d49e0665f35507b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-195_jpg.rf.b5dc25a5533bd4735e7b4e1fe3e0b349.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-195_jpg.rf.b5dc25a5533bd4735e7b4e1fe3e0b349.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-197_jpg.rf.03fb8a9b38e445ec125bf0fbc3e6189c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-197_jpg.rf.03fb8a9b38e445ec125bf0fbc3e6189c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-22_jpg.rf.83633eff652b1d5259c65850c4113073.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-22_jpg.rf.83633eff652b1d5259c65850c4113073.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-29_jpg.rf.29adb06780cbc14d9c02b42d0b0cb57e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-29_jpg.rf.29adb06780cbc14d9c02b42d0b0cb57e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-32_jpg.rf.78cac61b423ed5c1103f2f18f7c11b8c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-32_jpg.rf.78cac61b423ed5c1103f2f18f7c11b8c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-3_jpg.rf.808d7a7b438a90bf95f64f530f0a4454.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-3_jpg.rf.808d7a7b438a90bf95f64f530f0a4454.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-3_jpg.rf.830487a48558f030b27ee116a9f88800.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-3_jpg.rf.830487a48558f030b27ee116a9f88800.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-40_jpg.rf.c10476a3fe673dad7fd60006e57f0afa.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-40_jpg.rf.c10476a3fe673dad7fd60006e57f0afa.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-45_jpg.rf.dfb3d28e7d1db326aeb2a6842f851780.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-45_jpg.rf.dfb3d28e7d1db326aeb2a6842f851780.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-4_jpg.rf.b6f44f7f9333b2eb7c98f6c9edd34556.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-4_jpg.rf.b6f44f7f9333b2eb7c98f6c9edd34556.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-60_jpg.rf.2bc38c8febb07f4364ee8d0c4c1a1c14.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-60_jpg.rf.2bc38c8febb07f4364ee8d0c4c1a1c14.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-82_jpg.rf.69e2fac2cfcde0231861f921ca87158c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-82_jpg.rf.69e2fac2cfcde0231861f921ca87158c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-94_jpg.rf.ec59a561f609e0c5013f834b369fd74d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-94_jpg.rf.ec59a561f609e0c5013f834b369fd74d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-96_jpg.rf.2864aff0828ab1ba8b5bd2e5972836de.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-96_jpg.rf.2864aff0828ab1ba8b5bd2e5972836de.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-104_jpg.rf.963230885e715d89a1e13758b5165235.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-104_jpg.rf.963230885e715d89a1e13758b5165235.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-125_jpg.rf.19e63ab92d3810ac5bf37ecee25b6dcc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-125_jpg.rf.19e63ab92d3810ac5bf37ecee25b6dcc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-129_jpg.rf.b44723a99c5c8bab841e6742ee3f6262.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-129_jpg.rf.b44723a99c5c8bab841e6742ee3f6262.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-145_jpg.rf.62a5f90ea5a2adab32ef4b23cf26dabd.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-145_jpg.rf.62a5f90ea5a2adab32ef4b23cf26dabd.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-149_jpg.rf.c395947f65dd7d05d0c078c772c7bdec.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-149_jpg.rf.c395947f65dd7d05d0c078c772c7bdec.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-160_jpg.rf.8fc8184aaa97da3d251dd8e36b57eb87.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-160_jpg.rf.8fc8184aaa97da3d251dd8e36b57eb87.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-173_jpg.rf.269f356f278367f5ffac6e67b84dd9bb.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-173_jpg.rf.269f356f278367f5ffac6e67b84dd9bb.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-179_jpg.rf.828524ac6253c66cc955435ee87067c9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-179_jpg.rf.828524ac6253c66cc955435ee87067c9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-206_jpg.rf.7cec4aae49d3aa629fe051f0907daa9b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-206_jpg.rf.7cec4aae49d3aa629fe051f0907daa9b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-212_jpg.rf.c0cca5d69300d4c12d0e14f75d03d1b2.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-212_jpg.rf.c0cca5d69300d4c12d0e14f75d03d1b2.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-221_jpg.rf.e47b3b701f2d985af1445f87d9a4db7a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-221_jpg.rf.e47b3b701f2d985af1445f87d9a4db7a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-231_jpg.rf.ed83e5ddd982160ae1e58832e99d1086.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-231_jpg.rf.ed83e5ddd982160ae1e58832e99d1086.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-240_jpg.rf.2d0ad0ee6674a807afa6eeb0f605e0f9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-240_jpg.rf.2d0ad0ee6674a807afa6eeb0f605e0f9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-65_jpg.rf.14c2cbcf5ce44738abff3ffcbe618338.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-65_jpg.rf.14c2cbcf5ce44738abff3ffcbe618338.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-66_jpg.rf.92ffc7bd1fcc666ec09f85274980dd49.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-66_jpg.rf.92ffc7bd1fcc666ec09f85274980dd49.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-87_jpg.rf.88c7e3212c0918335ca2a82545fbc202.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-87_jpg.rf.88c7e3212c0918335ca2a82545fbc202.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-88_jpg.rf.251f36f5637952613856a99724bda753.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-88_jpg.rf.251f36f5637952613856a99724bda753.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/hp-beirut-promo-still-videoSixteenByNineJumbo1600_jpg.rf.4e72e7121f5dcade42d47361811d41e5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/hp-beirut-promo-still-videoSixteenByNineJumbo1600_jpg.rf.4e72e7121f5dcade42d47361811d41e5.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/new_fire_11_jpg.rf.3df324c75cb97a09cd6d3a77ec829df1.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/new_fire_11_jpg.rf.3df324c75cb97a09cd6d3a77ec829df1.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/new_fire_fire-628_png_jpg.rf.05a466458fec11015b57d2c5595db549.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/new_fire_fire-628_png_jpg.rf.05a466458fec11015b57d2c5595db549.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/new_fire_fire-746_png_jpg.rf.18714ab98c13b69d8fedd93253d99f1e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/new_fire_fire-746_png_jpg.rf.18714ab98c13b69d8fedd93253d99f1e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/no_original_S3-N0801MN05018.jpg_9c9541d0-136a-4beb-8fe8-a426cf82c5f5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/no_original_S3-N0801MN05018.jpg_ee76ac32-42f9-4d96-a08a-cb8890711506.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/0057_JPG_jpg.rf.f0a7fad55e1d0b5f0aee44d499cdfbd7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/0057_JPG_jpg.rf.f0a7fad55e1d0b5f0aee44d499cdfbd7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/0078_jpg.rf.f3ea9c3965c1fb5644e0e3996b0a5af6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/0078_jpg.rf.f3ea9c3965c1fb5644e0e3996b0a5af6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/0093_jpg.rf.746ba508ba6787fbfa980e2a2a1a3ca7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/0093_jpg.rf.746ba508ba6787fbfa980e2a2a1a3ca7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/01000000-0aff-0242-448c-08dbbfd39805_cx0_cy10_cw0_w1080_h608_jpg.rf.985b75528411a3ef75ce930fbe7a2884.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/01000000-0aff-0242-448c-08dbbfd39805_cx0_cy10_cw0_w1080_h608_jpg.rf.985b75528411a3ef75ce930fbe7a2884.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/0109_JPG_jpg.rf.5e9dbffb4cabaaf0cc5ac28424e67912.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/0109_JPG_jpg.rf.5e9dbffb4cabaaf0cc5ac28424e67912.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/0149_JPG_jpg.rf.f6c6cf7eaed56ac6e781493c4db9ff08.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/0149_JPG_jpg.rf.f6c6cf7eaed56ac6e781493c4db9ff08.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/0198_jpg.rf.027f1d50ab065a0638ef2d3acc09bd16.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/0198_jpg.rf.027f1d50ab065a0638ef2d3acc09bd16.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/10790165_061421-wls-plant-explosion-img_jpg.rf.ac2d59f66503e7bc677c95ad0f43eeec.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/10790165_061421-wls-plant-explosion-img_jpg.rf.ac2d59f66503e7bc677c95ad0f43eeec.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/1206_jpg.rf.c431b1bd0a4977b5c3c2b0c99cc7f7fa.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/1206_jpg.rf.c431b1bd0a4977b5c3c2b0c99cc7f7fa.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/230928021352-01-tashkent-explosion-092823_jpg.rf.7913c62d1b227717d7e79eef828f957b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/230928021352-01-tashkent-explosion-092823_jpg.rf.7913c62d1b227717d7e79eef828f957b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/36_jpg.rf.0a73b61c8ae372f6e78ee50eb8225def.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/36_jpg.rf.0a73b61c8ae372f6e78ee50eb8225def.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/48_jpg.rf.ebb7b59f8e7b012e2d03ba8d40d9f3c7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/48_jpg.rf.ebb7b59f8e7b012e2d03ba8d40d9f3c7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/506_jpg.rf.0f3313856e7e4904e3406c405f31b5d6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/506_jpg.rf.0f3313856e7e4904e3406c405f31b5d6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/538_jpg.rf.38b00a5de67ca89a65a12800226b23d6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/538_jpg.rf.38b00a5de67ca89a65a12800226b23d6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/754_jpg.rf.4a74dc27bd226f50c24b15d376763f8d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/754_jpg.rf.4a74dc27bd226f50c24b15d376763f8d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/821_jpg.rf.c6638b7c86551ce332461bfa72a9a0bb.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/821_jpg.rf.c6638b7c86551ce332461bfa72a9a0bb.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/859_jpg.rf.3d1b52c282013b1be8a26514366b5b41.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/859_jpg.rf.3d1b52c282013b1be8a26514366b5b41.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/88-Copy_jpg.rf.4ccda5c83feedf6745da940bcb3c3bf8.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/88-Copy_jpg.rf.4ccda5c83feedf6745da940bcb3c3bf8.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/914_jpg.rf.d387e5ea872ca0d3af13318f801b3451.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/914_jpg.rf.d387e5ea872ca0d3af13318f801b3451.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/Building-on-Fire_1000x361_jpg.rf.1c2da7f156acaa7c63c42bbdc9c8912e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/Building-on-Fire_1000x361_jpg.rf.1c2da7f156acaa7c63c42bbdc9c8912e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1050_jpg.rf.967ae5be962fe306c690d5d95d6d6e58.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBFire1050_jpg.rf.967ae5be962fe306c690d5d95d6d6e58.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1079_jpg.rf.8fd20de562d95a8a66a9b007d5e20d2c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBFire1079_jpg.rf.8fd20de562d95a8a66a9b007d5e20d2c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBFire1206_jpg.rf.f72e8e142ba4ee3b80afadc1c300e910.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBFire1206_jpg.rf.f72e8e142ba4ee3b80afadc1c300e910.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1368_jpg.rf.db93b01265c9cfc62c95c40371a8188e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBFire1368_jpg.rf.db93b01265c9cfc62c95c40371a8188e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1374_jpg.rf.486d90553e0ab4b9953e92a5609abc5b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBFire1374_jpg.rf.486d90553e0ab4b9953e92a5609abc5b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1430_jpg.rf.374de618513d1d0a3c4a5bab56058600.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBFire1430_jpg.rf.374de618513d1d0a3c4a5bab56058600.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire1431_jpg.rf.a5e1142dd86dcc4d8528fc5a0e10d735.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBFire1431_jpg.rf.a5e1142dd86dcc4d8528fc5a0e10d735.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire206_jpg.rf.face73ceaf9d963bdd9c861c678cf41d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBFire206_jpg.rf.face73ceaf9d963bdd9c861c678cf41d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBFire262_jpg.rf.ad383197fb0b5e0e6e85e3eb74ad1430.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBFire262_jpg.rf.ad383197fb0b5e0e6e85e3eb74ad1430.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBSmoke1210_jpg.rf.2efa58989802381f7c2a21323d133c89.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBSmoke1210_jpg.rf.2efa58989802381f7c2a21323d133c89.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBSmoke1795_jpg.rf.b176646421f413bed628620bc2f3239d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBSmoke1795_jpg.rf.b176646421f413bed628620bc2f3239d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBSmoke2208_jpg.rf.e390c59741040f7d8778964b2071b16b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBSmoke2208_jpg.rf.e390c59741040f7d8778964b2071b16b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBSmoke2374_jpg.rf.fe923d1b5e36a86cbcffd83c367aa4de.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBSmoke2374_jpg.rf.fe923d1b5e36a86cbcffd83c367aa4de.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBSmoke2385_jpg.rf.8abb7fb2c5156eeeac348ec8fe5119d4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBSmoke2385_jpg.rf.8abb7fb2c5156eeeac348ec8fe5119d4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBSmoke343_jpg.rf.213cb6971700e6e90b35436532eccf68.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBSmoke343_jpg.rf.213cb6971700e6e90b35436532eccf68.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/MirrorWEBSmoke373_jpg.rf.0a08b46c6d1fe0646ea83546abd7d7e7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBSmoke373_jpg.rf.0a08b46c6d1fe0646ea83546abd7d7e7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/MirrorWEBSmoke804_jpg.rf.49c8baed3e60687ec1dbc759259bdb8b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/MirrorWEBSmoke804_jpg.rf.49c8baed3e60687ec1dbc759259bdb8b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBFire1043_jpg.rf.362e571ff723f9ccc80fb4b113371ea5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBFire1043_jpg.rf.362e571ff723f9ccc80fb4b113371ea5.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBFire1053_jpg.rf.c18f5e4dab79ffffbd9a87d2e549696f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBFire1053_jpg.rf.c18f5e4dab79ffffbd9a87d2e549696f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBFire1091_jpg.rf.c154a9a7e0fa7931de9bd8f7723bc462.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBFire1091_jpg.rf.c154a9a7e0fa7931de9bd8f7723bc462.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBFire1133_jpg.rf.9cd8005d76e1e936e64ff46dec1852e5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBFire1133_jpg.rf.9cd8005d76e1e936e64ff46dec1852e5.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBFire174_jpg.rf.51d08249b12165e07631b218f84e6607.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBFire174_jpg.rf.51d08249b12165e07631b218f84e6607.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke095_jpg.rf.3adffbe1592aef9c9474b097eeeb0e1d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBSmoke095_jpg.rf.3adffbe1592aef9c9474b097eeeb0e1d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke2570_jpg.rf.08d14a996f2d6001d3207374b1d3dc9e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBSmoke2570_jpg.rf.08d14a996f2d6001d3207374b1d3dc9e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke2854_jpg.rf.2e48ffb6492a52e9d3919a0fcbf254e6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBSmoke2854_jpg.rf.2e48ffb6492a52e9d3919a0fcbf254e6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/NoiseWEBSmoke2874_jpg.rf.2153657fd9048e5b3b82ec1431d8535e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBSmoke2874_jpg.rf.2153657fd9048e5b3b82ec1431d8535e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke292_jpg.rf.94957a698ba50214a3e66d6674ee167f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBSmoke292_jpg.rf.94957a698ba50214a3e66d6674ee167f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/NoiseWEBSmoke343_jpg.rf.cde721999b57f1cea2fdb8d64f1f018e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/NoiseWEBSmoke343_jpg.rf.cde721999b57f1cea2fdb8d64f1f018e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0801MF01186.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0801MF01186.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0801MF01546.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0801MF01546.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0801MF04666.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0801MF04666.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0802MF02054.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0802MF02054.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0802MF03494.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0802MF03494.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0803MF01574.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0803MF01574.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0803MF02114.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0803MF02114.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0804MF04018.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0804MF04018.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0806MF07822.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0806MF07822.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0807MF02698.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0807MF02698.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0807MF03958.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0807MF03958.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0808MF03338.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0808MF03338.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0808MF03698.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0808MF03698.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0809MF02494.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0809MF02494.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0810MF04786.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0810MF04786.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0811MF05498.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0811MF05498.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0813MF02074.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0813MF02074.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0813MF02362.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0813MF02362.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0813MF03202.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0813MF03202.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0815MF00062.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0815MF00062.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0816MF00134.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0816MF00134.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0816MF03646.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0816MF03646.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0818MF02566.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0818MF02566.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0818MF02986.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0818MF02986.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0818MF03694.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0818MF03694.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0819MF02498.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0819MF02498.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0819MF02794.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0819MF02794.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0819MF03482.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0819MF03482.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0819MF06722.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0819MF06722.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0821MF01522.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0821MF01522.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0823MF02102.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0823MF02102.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0825MF01982.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0825MF01982.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0826MF02734.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0826MF02734.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0829MF00038.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0829MF00038.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0831MF00298.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0831MF00298.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0831MF02962.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0831MF02962.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0831MF05338.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0831MF05338.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0832MF00086.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0832MF00086.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0832MF02906.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0832MF02906.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0832MF05498.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0832MF05498.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0833MF02686.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0833MF02686.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0834MF02602.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0834MF02602.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0835MF03782.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0835MF03782.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0836MF01622.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0836MF01622.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0837MF02866.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0837MF02866.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0837MF05374.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0837MF05374.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0838MF04106.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0838MF04106.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0839MF05114.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0839MF05114.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0840MF01654.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0840MF01654.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0840MF03694.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0840MF03694.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0841MF00694.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0841MF00694.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0841MF04678.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0841MF04678.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0842MF01702.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0842MF01702.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0842MF04246.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0842MF04246.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0842MF04394.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0842MF04394.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0842MF04666.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0842MF04666.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0843MF05218.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0843MF05218.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0844MF04142.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0844MF04142.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0844MF04702.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0844MF04702.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0844MF05122.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0844MF05122.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0844MF05258.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0844MF05258.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0845MF02602.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0845MF02602.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0845MF04058.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0845MF04058.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0847MF05126.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0847MF05126.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0849MF00134.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0849MF00134.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0849MF00698.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0849MF00698.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0850MF05038.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0850MF05038.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0851MF03998.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0851MF03998.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0852MF01882.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0852MF01882.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0852MF03838.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0852MF03838.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0854MF01426.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0854MF01426.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0854MF03254.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0854MF03254.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0854MF03946.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0854MF03946.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0854MF04366.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0854MF04366.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0855MF04994.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0855MF04994.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0857MF00466.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0857MF00466.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0857MF01594.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0857MF01594.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0859MF00794.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0859MF00794.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0859MF01346.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0859MF01346.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0859MF02326.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0859MF02326.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0859MF02474.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0859MF02474.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0859MF03166.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0859MF03166.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0859MF03446.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0859MF03446.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0860MF00082.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0860MF00082.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0860MF01762.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0860MF01762.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0862MF00382.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0862MF00382.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0863MF00362.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0863MF00362.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0868MF02386.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0868MF02386.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0868MF02506.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0868MF02506.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0868MF02626.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0868MF02626.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0868MF03226.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0868MF03226.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0868MF03706.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0868MF03706.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0869MF03694.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0869MF03694.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0869MF04294.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0869MF04294.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0870MF02858.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0870MF02858.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0870MF02978.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0870MF02978.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0872MF03934.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0872MF03934.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0872MF04174.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0872MF04174.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0873MF04358.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0873MF04358.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0874MF03082.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0874MF03082.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0874MF03562.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0874MF03562.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0874MF04222.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0874MF04222.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0875MF02978.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0875MF02978.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0875MF03098.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0875MF03098.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0875MF03218.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0875MF03218.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0876MF02582.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0876MF02582.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0876MF02942.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0876MF02942.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0876MF03962.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0876MF03962.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0877MF03194.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0877MF03194.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0877MF03914.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0877MF03914.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0877MF04214.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0877MF04214.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF00122.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0878MF00122.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF01838.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0878MF01838.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF02318.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0878MF02318.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF02438.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0878MF02438.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF02618.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0878MF02618.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF02798.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0878MF02798.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF03698.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0878MF03698.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0878MF03998.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0878MF03998.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0882MF00598.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0882MF00598.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0886MF01114.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0886MF01114.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0886MF01534.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0886MF01534.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0888MF01798.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0888MF01798.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0890MF01646.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0890MF01646.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0890MF01786.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0890MF01786.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0891MF01294.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0891MF01294.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0893MF00674.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0893MF00674.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0893MF01514.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0893MF01514.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0897MF01174.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0897MF01174.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0898MF00862.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0898MF00862.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0898MF01826.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0898MF01826.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0899MF00818.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0899MF00818.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0911MF00914.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0911MF00914.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0912MF01522.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0912MF01522.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0921MF00338.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0921MF00338.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0924MF01022.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0924MF01022.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0924MF01142.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0924MF01142.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N0924MF02522.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0924MF02522.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0925MF01342.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0925MF01342.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N0925MF02542.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N0925MF02542.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1102MF01042.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1102MF01042.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1108MF00118.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1108MF00118.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1108MF00262.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1108MF00262.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1201MF00514.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1201MF00514.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1202MF02722.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1202MF02722.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1204MF00298.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1204MF00298.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1205MF00682.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1205MF00682.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1206MF00902.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1206MF00902.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1214MF01466.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1214MF01466.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1215MF01334.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1215MF01334.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1217MF01622.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1217MF01622.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1217MF01678.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1217MF01678.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1448MF01982.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1448MF01982.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1453MF00178.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1453MF00178.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1453MF01238.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1453MF01238.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1454MF00286.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1454MF00286.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1454MF00782.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1454MF00782.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1454MF01022.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1454MF01022.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1458MF01466.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1458MF01466.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1458MF01982.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1458MF01982.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1459MF02306.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1459MF02306.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1460MF01402.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1460MF01402.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1460MF01486.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1460MF01486.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1461MF00682.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1461MF00682.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1461MF01802.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1461MF01802.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/S3-N1462MF02222.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1462MF02222.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/S3-N1462MF02486.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/S3-N1462MF02486.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire052_jpg.rf.b5bfa47e0343ced63ebc21dfb6088152.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire052_jpg.rf.b5bfa47e0343ced63ebc21dfb6088152.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire1120_jpg.rf.d71f0d4abc880fdeddc2b7350036ff24.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire1120_jpg.rf.d71f0d4abc880fdeddc2b7350036ff24.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire1431_jpg.rf.d0fcc7da5e609dd280609890d59265da.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire1431_jpg.rf.d0fcc7da5e609dd280609890d59265da.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire1441_jpg.rf.ac5e1deb36494b6b47489c9846571b57.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire1441_jpg.rf.ac5e1deb36494b6b47489c9846571b57.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire152_jpg.rf.5019901a6cecefc2501272c0bdaa69f0.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire152_jpg.rf.5019901a6cecefc2501272c0bdaa69f0.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire1588_jpg.rf.f76d2bf2bb2b5345558cfa2b73c45adf.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire1588_jpg.rf.f76d2bf2bb2b5345558cfa2b73c45adf.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire1805_jpg.rf.c0ac748917f7d6208cbc41ec03f25e10.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire1805_jpg.rf.c0ac748917f7d6208cbc41ec03f25e10.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire1885_jpg.rf.e780180e1346aba80f7cd07d0c653be1.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire1885_jpg.rf.e780180e1346aba80f7cd07d0c653be1.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire2083_jpg.rf.56ad48dca215ba9a473c6fcf55758e33.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire2083_jpg.rf.56ad48dca215ba9a473c6fcf55758e33.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBFire2084_jpg.rf.4940ef59846d9146e71c766e771b62c4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire2084_jpg.rf.4940ef59846d9146e71c766e771b62c4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire291_jpg.rf.481a82bc6cab10e5cd09e6e2e6dd4d61.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire291_jpg.rf.481a82bc6cab10e5cd09e6e2e6dd4d61.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBFire427_jpg.rf.a086900fa2f8213ff39c6859a584572b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBFire427_jpg.rf.a086900fa2f8213ff39c6859a584572b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBSmoke1089_jpg.rf.91f64701f7462f523b9a5fc4a3dae723.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBSmoke1089_jpg.rf.91f64701f7462f523b9a5fc4a3dae723.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke1242_jpg.rf.302aa51b3b8129d4695da4521583ec4b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBSmoke1242_jpg.rf.302aa51b3b8129d4695da4521583ec4b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke1304_jpg.rf.0493b526ff06108e7f486b80f54fdc6f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBSmoke1304_jpg.rf.0493b526ff06108e7f486b80f54fdc6f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke1309_jpg.rf.37556798d14c3602122332a4aeea2fe1.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBSmoke1309_jpg.rf.37556798d14c3602122332a4aeea2fe1.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/WEBSmoke1566_jpg.rf.57dc6c31a4fa039d535bf11ca5253d97.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBSmoke1566_jpg.rf.57dc6c31a4fa039d535bf11ca5253d97.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke1654_jpg.rf.a0c12bc56b0ebfb4e401f6837b920871.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBSmoke1654_jpg.rf.a0c12bc56b0ebfb4e401f6837b920871.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke1882_jpg.rf.6b6fc372bf4ccec27fc904fd5ca5d64f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBSmoke1882_jpg.rf.6b6fc372bf4ccec27fc904fd5ca5d64f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke2208_jpg.rf.3be5417d2dd379f62f6e11507916ea7c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBSmoke2208_jpg.rf.3be5417d2dd379f62f6e11507916ea7c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/WEBSmoke2333_jpg.rf.5f41ca1d8f8b0dcd67bd1ae1a38e283e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/WEBSmoke2333_jpg.rf.5f41ca1d8f8b0dcd67bd1ae1a38e283e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-1013-_jpg.rf.2fe73347d6f26a3b813c9847942aa5e5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-1013-_jpg.rf.2fe73347d6f26a3b813c9847942aa5e5.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-1036-_jpg.rf.9adeb4c5c3eb5c62b833562d77892201.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-1036-_jpg.rf.9adeb4c5c3eb5c62b833562d77892201.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-1059-_jpg.rf.139b22bdff91f16083d50aa321184f28.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-1059-_jpg.rf.139b22bdff91f16083d50aa321184f28.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-1199-_jpg.rf.ab728695ff897fd6061ea155040eee66.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-1199-_jpg.rf.ab728695ff897fd6061ea155040eee66.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-1363-_jpg.rf.9104eda87cc33fc590ec1fc532303d9f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-1363-_jpg.rf.9104eda87cc33fc590ec1fc532303d9f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-17-_jpg.rf.f26e6848b1b83ad0a8e589cc331c0e22.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-17-_jpg.rf.f26e6848b1b83ad0a8e589cc331c0e22.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-32-_jpg.rf.72dd24b5927d550caa7904602e16678c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-32-_jpg.rf.72dd24b5927d550caa7904602e16678c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-474-_jpg.rf.de0fca0759cd1a183606c35fc98365a2.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-474-_jpg.rf.de0fca0759cd1a183606c35fc98365a2.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-5-_jpg.rf.a9b7d4f9afed7dc5e0fc535821a41bd0.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-5-_jpg.rf.a9b7d4f9afed7dc5e0fc535821a41bd0.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-582-_jpg.rf.ae4a73b215d123417d3196bb99e774c9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-582-_jpg.rf.ae4a73b215d123417d3196bb99e774c9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-601-_jpg.rf.24df0fd83119164410324ac42e83053c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-601-_jpg.rf.24df0fd83119164410324ac42e83053c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-702-_jpg.rf.2f07f16782571dbb51ddfecb588dbb53.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-702-_jpg.rf.2f07f16782571dbb51ddfecb588dbb53.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1-879-_jpg.rf.a9951551771ddf05369ff4c7e2d03647.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-879-_jpg.rf.a9951551771ddf05369ff4c7e2d03647.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1-988-_jpg.rf.5e15f829ac60885ef301667e9f3b009a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1-988-_jpg.rf.5e15f829ac60885ef301667e9f3b009a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-20_jpg.rf.c3630f82b686c366d0ef7c322ed6297e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-20_jpg.rf.c3630f82b686c366d0ef7c322ed6297e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-21_jpg.rf.002a2e1e38a29ade97e1095e699c1e3c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-21_jpg.rf.002a2e1e38a29ade97e1095e699c1e3c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-28_jpg.rf.7fb9927a349eb8d7936db8daccfe9763.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-28_jpg.rf.7fb9927a349eb8d7936db8daccfe9763.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-29_jpg.rf.fd8410759b99002de823f750ac7a1adb.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-29_jpg.rf.fd8410759b99002de823f750ac7a1adb.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-44_jpg.rf.24e82f5d799a3a52604369522d6587f5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-44_jpg.rf.24e82f5d799a3a52604369522d6587f5.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-50_jpg.rf.1c5cd36dceab50dd46794e1c643cba7a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-50_jpg.rf.1c5cd36dceab50dd46794e1c643cba7a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-65_jpg.rf.cd0e400192ce41b9306c3992bfed8eab.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-65_jpg.rf.cd0e400192ce41b9306c3992bfed8eab.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire10_mp4-67_jpg.rf.e2342fb6adab161ae4947812fef881c7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-67_jpg.rf.e2342fb6adab161ae4947812fef881c7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-77_jpg.rf.71691ae3d721dc0165deae852e172a6e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-77_jpg.rf.71691ae3d721dc0165deae852e172a6e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire10_mp4-8_jpg.rf.83ef7916f9de6e5192d7d4bdcce34691.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire10_mp4-8_jpg.rf.83ef7916f9de6e5192d7d4bdcce34691.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-109_jpg.rf.81cab61cdfe65fd80dc47a85754b3e0c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-109_jpg.rf.81cab61cdfe65fd80dc47a85754b3e0c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-132_jpg.rf.5b804d1d9e82829e05950e71a3b8b8b9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-132_jpg.rf.5b804d1d9e82829e05950e71a3b8b8b9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-139_jpg.rf.6fe6f054543166d1bede361bfb6801ec.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-139_jpg.rf.6fe6f054543166d1bede361bfb6801ec.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire11_mp4-1_jpg.rf.e632a73ce8006761529db5624014c1eb.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-1_jpg.rf.e632a73ce8006761529db5624014c1eb.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-41_jpg.rf.9ad0925f3b228302365edada11abfa01.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-41_jpg.rf.9ad0925f3b228302365edada11abfa01.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-43_jpg.rf.3004809555c0bbadb9d133880535d4e6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-43_jpg.rf.3004809555c0bbadb9d133880535d4e6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-70_jpg.rf.a003b9cf67a38357a3984ea9f166069b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-70_jpg.rf.a003b9cf67a38357a3984ea9f166069b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-79_jpg.rf.b9608169e5556aab54b7d666507731c4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-79_jpg.rf.b9608169e5556aab54b7d666507731c4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-90_jpg.rf.18a401d33b9bad482e795b23ece818e5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-90_jpg.rf.18a401d33b9bad482e795b23ece818e5.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire11_mp4-94_jpg.rf.436598f3b827e3716d106f5dd51a1ed1.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire11_mp4-94_jpg.rf.436598f3b827e3716d106f5dd51a1ed1.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-109_jpg.rf.40fb57cd4fef6c8c11f79cccc463e941.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-109_jpg.rf.40fb57cd4fef6c8c11f79cccc463e941.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-120_jpg.rf.769f267da754d2330be51590d4366662.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-120_jpg.rf.769f267da754d2330be51590d4366662.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-144_jpg.rf.88c05bedf95e03da5e8a22dcb78b363b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-144_jpg.rf.88c05bedf95e03da5e8a22dcb78b363b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-145_jpg.rf.98a16da2c6ae363826cdf189a76f7edc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-145_jpg.rf.98a16da2c6ae363826cdf189a76f7edc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-161_jpg.rf.21f6db8954920fe851ae283d5c6c70a8.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-161_jpg.rf.21f6db8954920fe851ae283d5c6c70a8.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-198_jpg.rf.af5c4cb026094bd69a49a31d60df9306.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-198_jpg.rf.af5c4cb026094bd69a49a31d60df9306.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-214_jpg.rf.dd5f277d37ec9ea5c2d8b1ba4e231c2b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-214_jpg.rf.dd5f277d37ec9ea5c2d8b1ba4e231c2b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-42_jpg.rf.3770bb2f63c5025996217fd68321d8a8.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-42_jpg.rf.3770bb2f63c5025996217fd68321d8a8.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-66_jpg.rf.a9dafeafcb2f6a25d1db22dfbeff1122.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-66_jpg.rf.a9dafeafcb2f6a25d1db22dfbeff1122.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-71_jpg.rf.49c535da6e4ae8639576ca4977f4500b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-71_jpg.rf.49c535da6e4ae8639576ca4977f4500b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire12_mp4-83_jpg.rf.8d65a2bd053f63c5861b1e5f7ee79ebe.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-83_jpg.rf.8d65a2bd053f63c5861b1e5f7ee79ebe.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire12_mp4-89_jpg.rf.3a8bc633c700b2ee1289e94a397ab44b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire12_mp4-89_jpg.rf.3a8bc633c700b2ee1289e94a397ab44b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-117_jpg.rf.8577d9103896fdd5c13b5eb986ac763f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-117_jpg.rf.8577d9103896fdd5c13b5eb986ac763f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-310_jpg.rf.0fd7e9ff2cbefa45091962651c99018a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-310_jpg.rf.0fd7e9ff2cbefa45091962651c99018a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-322_jpg.rf.39a6c6adac7dbb17167426c5c311b8c2.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-322_jpg.rf.39a6c6adac7dbb17167426c5c311b8c2.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-355_jpg.rf.6fd097a1c644ca70345d4d1446c099d6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-355_jpg.rf.6fd097a1c644ca70345d4d1446c099d6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-494_jpg.rf.b2a49b70fa1103200fdb624aac71fe04.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-494_jpg.rf.b2a49b70fa1103200fdb624aac71fe04.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-499_jpg.rf.7f93dcd376b1406580c7e4a0e360a07a.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-499_jpg.rf.7f93dcd376b1406580c7e4a0e360a07a.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-509_jpg.rf.f95d3fffc287cd16369bff92cedce91f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-509_jpg.rf.f95d3fffc287cd16369bff92cedce91f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-510_jpg.rf.82a34bed6bdcc5f5e651035b5720d3ed.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-510_jpg.rf.82a34bed6bdcc5f5e651035b5720d3ed.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-523_jpg.rf.e2809f12049fe9a42ca1763964b3bfe0.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-523_jpg.rf.e2809f12049fe9a42ca1763964b3bfe0.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-541_jpg.rf.16868fa8857a9fc6f790c753230e0c9f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-541_jpg.rf.16868fa8857a9fc6f790c753230e0c9f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-556_jpg.rf.0822402409f0fd3be7dc601c038fb86f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-556_jpg.rf.0822402409f0fd3be7dc601c038fb86f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-565_jpg.rf.48adeeabc2d87e93d37203d9a36bd6f3.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-565_jpg.rf.48adeeabc2d87e93d37203d9a36bd6f3.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-578_jpg.rf.5b17b19f257c484d245b677e399391c8.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-578_jpg.rf.5b17b19f257c484d245b677e399391c8.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-587_jpg.rf.9e2cc65ab838ae2384d62e73d35f5de3.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-587_jpg.rf.9e2cc65ab838ae2384d62e73d35f5de3.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire1_mp4-591_jpg.rf.70654795e7d5b5e674bdef980b4d01a6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-591_jpg.rf.70654795e7d5b5e674bdef980b4d01a6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-614_jpg.rf.94e1649f8be81734f9d56dff70abab84.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-614_jpg.rf.94e1649f8be81734f9d56dff70abab84.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-642_jpg.rf.c7f3802a089a982da3ddac4083f9b4a8.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-642_jpg.rf.c7f3802a089a982da3ddac4083f9b4a8.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-687_jpg.rf.e75810ec03592bb8613b9c89d5ec623d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-687_jpg.rf.e75810ec03592bb8613b9c89d5ec623d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire1_mp4-708_jpg.rf.a411845f64a501f59b092216d9caef9e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire1_mp4-708_jpg.rf.a411845f64a501f59b092216d9caef9e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire4_mp4-229_jpg.rf.68702dbe5010a223b75152ccf4ab6357.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire4_mp4-229_jpg.rf.68702dbe5010a223b75152ccf4ab6357.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-107_jpg.rf.ba4478bee36d9293b1cdaadb15f9c750.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-107_jpg.rf.ba4478bee36d9293b1cdaadb15f9c750.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1135_jpg.rf.1650f9f80b78ede9b940aed5c61e8532.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1135_jpg.rf.1650f9f80b78ede9b940aed5c61e8532.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-1154_jpg.rf.ae47a3e6f57eda214e61e06679263715.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1154_jpg.rf.ae47a3e6f57eda214e61e06679263715.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-1177_jpg.rf.e601ed8e582055abab69b5f7ed0b20b2.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1177_jpg.rf.e601ed8e582055abab69b5f7ed0b20b2.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1243_jpg.rf.dec5bac11578c6e4a49e2a73f420486f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1243_jpg.rf.dec5bac11578c6e4a49e2a73f420486f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1477_jpg.rf.562e8c3728afe550eb3e274637d517da.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1477_jpg.rf.562e8c3728afe550eb3e274637d517da.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1504_jpg.rf.14aab072919a57bb953f066e3d000fed.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1504_jpg.rf.14aab072919a57bb953f066e3d000fed.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1558_jpg.rf.11fab6086154226faecae2e022a82baf.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1558_jpg.rf.11fab6086154226faecae2e022a82baf.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1618_jpg.rf.d3e122dbc4a3432975952ee79d44b919.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1618_jpg.rf.d3e122dbc4a3432975952ee79d44b919.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1733_jpg.rf.ac34152b9e4b120da18c181a78af3771.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1733_jpg.rf.ac34152b9e4b120da18c181a78af3771.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-1742_jpg.rf.618068c91feb041bfe53e3ceadc1c75d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1742_jpg.rf.618068c91feb041bfe53e3ceadc1c75d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-1760_jpg.rf.3a633b8377d2a35f2172bf71e1b9d367.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-1760_jpg.rf.3a633b8377d2a35f2172bf71e1b9d367.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-330_jpg.rf.f7c0f6bc54a41cf6f17cd335cf2793cf.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-330_jpg.rf.f7c0f6bc54a41cf6f17cd335cf2793cf.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-41_jpg.rf.6d363a0890e7a834b22047a20bc4edf5.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-41_jpg.rf.6d363a0890e7a834b22047a20bc4edf5.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire6_mp4-424_jpg.rf.dcf94373bd424cfdbc2196bb3a1ec8c9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-424_jpg.rf.dcf94373bd424cfdbc2196bb3a1ec8c9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-587_jpg.rf.0b57c33f33c9495fe82c3e0ad02fecb8.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-587_jpg.rf.0b57c33f33c9495fe82c3e0ad02fecb8.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-632_jpg.rf.fe120d9a9c955849b396073c7ddff965.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-632_jpg.rf.fe120d9a9c955849b396073c7ddff965.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-763_jpg.rf.0c480f01d9bbb3bd52680572cb3ab619.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-763_jpg.rf.0c480f01d9bbb3bd52680572cb3ab619.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-902_jpg.rf.fa2ceb2604de7e2033e05859c3bc8333.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-902_jpg.rf.fa2ceb2604de7e2033e05859c3bc8333.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire6_mp4-904_jpg.rf.109b24da29636020aeda00f027c4c540.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire6_mp4-904_jpg.rf.109b24da29636020aeda00f027c4c540.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-0_jpg.rf.b01d1fe153c5f1fb8001a9328e54f637.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-0_jpg.rf.b01d1fe153c5f1fb8001a9328e54f637.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-100_jpg.rf.abfb8df27c4bcdc2d40427a151d87b14.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-100_jpg.rf.abfb8df27c4bcdc2d40427a151d87b14.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-103_jpg.rf.c6dd3317f646a62e129067fdd730f2ce.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-103_jpg.rf.c6dd3317f646a62e129067fdd730f2ce.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-104_jpg.rf.742a537eb28bb9165b9d7c7a010ee899.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-104_jpg.rf.742a537eb28bb9165b9d7c7a010ee899.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-10_jpg.rf.194ff5d86a498b8336d8d6a095252102.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-10_jpg.rf.194ff5d86a498b8336d8d6a095252102.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-118_jpg.rf.76bc5e20b8aeecf34c252e1078a41671.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-118_jpg.rf.76bc5e20b8aeecf34c252e1078a41671.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-120_jpg.rf.e13711020ef992c1412256f3aa9ecbe7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-120_jpg.rf.e13711020ef992c1412256f3aa9ecbe7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-123_jpg.rf.f1d38618e186f039f4c100e23fc9d869.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-123_jpg.rf.f1d38618e186f039f4c100e23fc9d869.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-124_jpg.rf.32a3afdea5fd0883b9c5da21aaebd4b6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-124_jpg.rf.32a3afdea5fd0883b9c5da21aaebd4b6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-12_jpg.rf.445e53bac77f6be66871597efa597d95.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-12_jpg.rf.445e53bac77f6be66871597efa597d95.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-139_jpg.rf.aad0259e10d1b99d983d1f6aeb401361.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-139_jpg.rf.aad0259e10d1b99d983d1f6aeb401361.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-140_jpg.rf.2294f8f50d0db29df22cc59baef4b223.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-140_jpg.rf.2294f8f50d0db29df22cc59baef4b223.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-162_jpg.rf.3cd0ea37201498b10c4de0abcdede443.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-162_jpg.rf.3cd0ea37201498b10c4de0abcdede443.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-163_jpg.rf.5b69fa05b25b50267eb94ef410406793.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-163_jpg.rf.5b69fa05b25b50267eb94ef410406793.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-168_jpg.rf.bccd92c334dcc48e0dab8e082fe48d45.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-168_jpg.rf.bccd92c334dcc48e0dab8e082fe48d45.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-174_jpg.rf.a2a73a0472db5e98b7303257945b3c26.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-174_jpg.rf.a2a73a0472db5e98b7303257945b3c26.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-176_jpg.rf.deadde2202521809520097358190f9f4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-176_jpg.rf.deadde2202521809520097358190f9f4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-176_jpg.rf.ff15f52f0f6a61f4c2f86b2b33f4090d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-176_jpg.rf.ff15f52f0f6a61f4c2f86b2b33f4090d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-181_jpg.rf.76d80827808cf4e5e105afbc8596e3f4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-181_jpg.rf.76d80827808cf4e5e105afbc8596e3f4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-187_jpg.rf.06b70a20f2c559d433a2520fd22836ba.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-187_jpg.rf.06b70a20f2c559d433a2520fd22836ba.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-187_jpg.rf.9884d54f0d6865bade03ae08d6c2676f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-187_jpg.rf.9884d54f0d6865bade03ae08d6c2676f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-199_jpg.rf.a233655562b9ad7d9dc53eafc6d01571.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-199_jpg.rf.a233655562b9ad7d9dc53eafc6d01571.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-27_jpg.rf.fc23aeb01f23ecbf1e89c416650cade3.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-27_jpg.rf.fc23aeb01f23ecbf1e89c416650cade3.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-29_jpg.rf.6bb1bd920d21e17d2bbb28d1c516ad3e.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-29_jpg.rf.6bb1bd920d21e17d2bbb28d1c516ad3e.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-34_jpg.rf.3046eea6a9bcfe795dad11c6468a8e10.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-34_jpg.rf.3046eea6a9bcfe795dad11c6468a8e10.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-44_jpg.rf.2ab9e8192811a7ebc312594a9291f922.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-44_jpg.rf.2ab9e8192811a7ebc312594a9291f922.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-44_jpg.rf.35471facfa09797d5c9ebe0a78dd209d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-44_jpg.rf.35471facfa09797d5c9ebe0a78dd209d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-46_jpg.rf.1db62be125ff2d15d74bedcbf7e1c16f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-46_jpg.rf.1db62be125ff2d15d74bedcbf7e1c16f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-52_jpg.rf.039a3234c4f7b380225e8284d044839b.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-52_jpg.rf.039a3234c4f7b380225e8284d044839b.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-54_jpg.rf.64578017031c172303d5c78f0435e2ec.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-54_jpg.rf.64578017031c172303d5c78f0435e2ec.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-54_jpg.rf.f94e15cf5336e4188be2507cfbc3b9f9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-54_jpg.rf.f94e15cf5336e4188be2507cfbc3b9f9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-57_jpg.rf.712d3d41db95f2a4726fdec2c33cafad.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-57_jpg.rf.712d3d41db95f2a4726fdec2c33cafad.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-69_jpg.rf.6c6874cb73f43e9ac5b3a79c3739b8ae.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-69_jpg.rf.6c6874cb73f43e9ac5b3a79c3739b8ae.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-71_jpg.rf.2994c3af171637eacede55ea3d29721f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-71_jpg.rf.2994c3af171637eacede55ea3d29721f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-74_jpg.rf.80a4f7649a4676d4889d5301fc3ba951.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-74_jpg.rf.80a4f7649a4676d4889d5301fc3ba951.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-76_jpg.rf.5df65a364f51c63fac5c71fabd654b59.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-76_jpg.rf.5df65a364f51c63fac5c71fabd654b59.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-80_jpg.rf.aa2c1444ca002f2a95b1295ef6004094.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-80_jpg.rf.aa2c1444ca002f2a95b1295ef6004094.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-82_jpg.rf.4d16836a0c2160f20a78d29856bb571d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-82_jpg.rf.4d16836a0c2160f20a78d29856bb571d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-84_jpg.rf.e3be7d2b499dbd10b1146ac4b04b793d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-84_jpg.rf.e3be7d2b499dbd10b1146ac4b04b793d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-87_jpg.rf.9bc78865be8809b75998a8fc19692581.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-87_jpg.rf.9bc78865be8809b75998a8fc19692581.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire7_mp4-88_jpg.rf.c7d2ba5d0e2488ceb2be60512bd58a90.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-88_jpg.rf.c7d2ba5d0e2488ceb2be60512bd58a90.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-90_jpg.rf.288d6c4e36d3996ccbe827b856ab31ac.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-90_jpg.rf.288d6c4e36d3996ccbe827b856ab31ac.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire7_mp4-9_jpg.rf.bdcc2d7b7260119d49e8e216792b9b31.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire7_mp4-9_jpg.rf.bdcc2d7b7260119d49e8e216792b9b31.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-106_jpg.rf.353cf284122ead6410f17a71e6ed9b61.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-106_jpg.rf.353cf284122ead6410f17a71e6ed9b61.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-113_jpg.rf.f1fde7811ba030fa4eea72ee690c5468.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-113_jpg.rf.f1fde7811ba030fa4eea72ee690c5468.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-114_jpg.rf.c79883e8fabe3a23e4ec6bbb42f95b74.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-114_jpg.rf.c79883e8fabe3a23e4ec6bbb42f95b74.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-115_jpg.rf.4ae1d886952cae9b3bfa8c763cc154d4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-115_jpg.rf.4ae1d886952cae9b3bfa8c763cc154d4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-126_jpg.rf.1a49d45c02d6f0c7b802a823b01e7c46.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-126_jpg.rf.1a49d45c02d6f0c7b802a823b01e7c46.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-151_jpg.rf.7fc6d3aa5e6f3e4e57c39a1ddaa4b758.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-151_jpg.rf.7fc6d3aa5e6f3e4e57c39a1ddaa4b758.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-161_jpg.rf.28406129e9979052791e28ddaf8f3e01.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-161_jpg.rf.28406129e9979052791e28ddaf8f3e01.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-166_jpg.rf.a143eb350aefb1b7cba515a846b6e2b4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-166_jpg.rf.a143eb350aefb1b7cba515a846b6e2b4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-182_jpg.rf.4e2f8e1322e101deaab0962bbe817233.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-182_jpg.rf.4e2f8e1322e101deaab0962bbe817233.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-184_jpg.rf.c15ed9a4734b09ce916efce429c27c7d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-184_jpg.rf.c15ed9a4734b09ce916efce429c27c7d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-186_jpg.rf.f59fd8c865ced6bddd8c8a07a61418ed.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-186_jpg.rf.f59fd8c865ced6bddd8c8a07a61418ed.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-18_jpg.rf.de2b478268fd8f711431a5b27c135e50.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-18_jpg.rf.de2b478268fd8f711431a5b27c135e50.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-201_jpg.rf.1892cc3e8f61f6b592a0690a75dd8501.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-201_jpg.rf.1892cc3e8f61f6b592a0690a75dd8501.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-227_jpg.rf.9c1b4a35fe0c8139ceec86fbbeb04781.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-227_jpg.rf.9c1b4a35fe0c8139ceec86fbbeb04781.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-232_jpg.rf.bcc39eda3c71ed9f307708a80de358e9.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-232_jpg.rf.bcc39eda3c71ed9f307708a80de358e9.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-235_jpg.rf.791f17aeb2ef147b4e6dc8cb4abb1d9d.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-235_jpg.rf.791f17aeb2ef147b4e6dc8cb4abb1d9d.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-237_jpg.rf.ba173c80bc2279ef3d5afa2a4d5b28ac.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-237_jpg.rf.ba173c80bc2279ef3d5afa2a4d5b28ac.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-23_jpg.rf.da9cb2161c301cdc7f5c7639c226a78c.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-23_jpg.rf.da9cb2161c301cdc7f5c7639c226a78c.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-24_jpg.rf.649762964fa22107789ec474a52a28dc.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-24_jpg.rf.649762964fa22107789ec474a52a28dc.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-33_jpg.rf.4cce818b7d6046b1754206ab5d8a9996.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-33_jpg.rf.4cce818b7d6046b1754206ab5d8a9996.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-34_jpg.rf.0ddf48eac85b12c7e0ebf68806e410ac.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-34_jpg.rf.0ddf48eac85b12c7e0ebf68806e410ac.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-79_jpg.rf.13d989ac5dc6b058cafad08e3d80b16f.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-79_jpg.rf.13d989ac5dc6b058cafad08e3d80b16f.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-80_jpg.rf.5d245cdc5205f990cc5cbf3771841605.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-80_jpg.rf.5d245cdc5205f990cc5cbf3771841605.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-84_jpg.rf.4fbe351b1df3ad1374753e241ddcfd52.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-84_jpg.rf.4fbe351b1df3ad1374753e241ddcfd52.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/fire8_mp4-92_jpg.rf.21e19769408287b46ff5444d12adf9e0.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-92_jpg.rf.21e19769408287b46ff5444d12adf9e0.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-93_jpg.rf.76fa566403a02ce725de31f8c8f82673.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-93_jpg.rf.76fa566403a02ce725de31f8c8f82673.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/fire8_mp4-95_jpg.rf.de47864c4807b36ee526299adbb9bf42.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/fire8_mp4-95_jpg.rf.de47864c4807b36ee526299adbb9bf42.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/images223_jpg.rf.0f747d4109e0ec3349ab46e4cdb2bee7.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/images223_jpg.rf.0f747d4109e0ec3349ab46e4cdb2bee7.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/train/images/images439_jpg.rf.a1e3e3108f775448d58b503f429c4af4.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/images439_jpg.rf.a1e3e3108f775448d58b503f429c4af4.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/new_fire_40_jpg.rf.f41dccafc423e74b829c16289d66b0a6.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/new_fire_40_jpg.rf.f41dccafc423e74b829c16289d66b0a6.jpg"
+    },
+    {
+      "kept": "azimjaan21-fire-smoke-yolo/fire_smoke/test/images/new_fire_fire-739_png_jpg.rf.7913ff31328e7addcd6ab35c08a9c080.jpg",
+      "dropped": "azimjaan21-fire-smoke-yolo/fire_smoke/val/images/new_fire_fire-739_png_jpg.rf.7913ff31328e7addcd6ab35c08a9c080.jpg"
+    }
+  ]
+}
